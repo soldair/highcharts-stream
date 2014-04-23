@@ -1,8 +1,8 @@
 var through = require('through');
-// eff it
-var $ = require('jquery');
-
 var Highcharts = require('highcharts-browserify');
+
+// grab patched jquery
+var $ = Highcharts.$;
 
 // by default its a spline / line chart with irregular data points 
 // but you can overload everything in options as its deep extended
