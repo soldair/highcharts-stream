@@ -124,6 +124,8 @@ module.exports = function(selector,options){
 
 // convenience because you will have to use through to transform points for the series!
 module.exports.through = through;
+/// also highcharts
+module.exports.Highcharts = Highcharts;
 
 // for bundle.js
 if(process.browser) window.highchartsStream = module.exports;
