@@ -1,6 +1,7 @@
 var through = require('through');
 // eff it
-var jquery = require('jquery-browserify');
+var $ = require('jquery');
+
 var Highcharts = require('highcharts-browserify');
 
 // by default its a spline / line chart with irregular data points 

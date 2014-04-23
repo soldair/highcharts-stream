@@ -1,7 +1,7 @@
 {
   "name": "highcharts-stream",
   "description": "streaming interface to highcharts-browserify. stream.pipe(chart) === happy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "url": "git://github.com/soldair/highcharts-stream.git"
   },
@@ -12,7 +12,11 @@
     "prepublish": "npm run build"
   },
   "author": "Ryan Day",
-  "dependencies": {},
+  "dependencies": {
+    "through": "~2.3.4",
+    "jquery":"~1.11.0",
+    "highcharts-browserify": "~0.0.0-3.0.10"
+  },
   "devDependencies": {
     "tape": "~2.12.3",
     "browserify": "^3.44.2"
